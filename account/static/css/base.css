@@ -1,0 +1,47 @@
+body {
+  font-family: "Lucida Sans", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header {
+  background-color: rgb(14, 172, 75);
+  padding: 15px 0;
+}
+
+.logo {
+  color: RGB(226, 237, 183);
+}
+
+.logo,
+#content {
+  padding-left: 75px;
+}
+
+#content {
+  margin-top: 40px;
+  width: 80%;
+}
+
+h1 {
+  border-bottom: 2px solid rgb(169, 168, 168);
+  padding-bottom: 8px;
+}
+
+p {
+  margin: 25px 0;
+}
+
+#id_username,
+#id_password {
+  display: block;
+  background-color: rgb(234, 234, 234);
+  border: 0;
+  margin-top: 10px;
+  height: 25px;
+}
+
+input[type="submit"] {
+  background-color: rgb(14, 172, 75);
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
