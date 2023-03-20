@@ -64,7 +64,7 @@ p {
   margin: 25px 0;
 }
 
-#content > p > a {
+#content p > a {
   color: rgb(14, 172, 75);
   text-decoration: none;
 }
