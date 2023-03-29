@@ -69,13 +69,22 @@ p {
   text-decoration: none;
 }
 
+#id_first_name,
+#id_email,
 #id_username,
-#id_password {
+#id_password,
+#id_password2 {
   display: block;
   background-color: rgb(234, 234, 234);
   border: 0;
   margin-top: 10px;
   height: 25px;
+  width: 200px;
+}
+
+.helptext {
+  display: inline-block;
+  margin: 10px 0;
 }
 
 input[type="submit"] {
