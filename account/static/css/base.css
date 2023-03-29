@@ -70,16 +70,24 @@ p {
 }
 
 #id_first_name,
+#id_last_name,
 #id_email,
+#id_date_of_birth,
 #id_username,
 #id_password,
-#id_password2 {
+#id_password2,
+#id_photo {
   display: block;
   background-color: rgb(234, 234, 234);
   border: 0;
   margin-top: 10px;
   height: 25px;
   width: 200px;
+}
+
+#id_photo {
+  padding: 10px 0 6px 10px;
+  width: 350px;
 }
 
 .helptext {
