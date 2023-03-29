@@ -50,6 +50,41 @@ body {
   text-decoration: none;
 }
 
+.messages {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.messages > li {
+  margin: 0 20px 0 75px;
+  padding: 15px 0 15px 20px;
+  list-style: none;
+}
+
+.messages > .success {
+  background-color: rgb(78, 198, 80);
+  color: rgb(226, 248, 240);
+}
+
+.messages > .error {
+  background-color: rgb(163, 0, 41);
+  color: rgb(241, 135, 141);
+}
+
+.messages > li > a {
+  float: right;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+.messages > .success > a {
+  color: rgb(3, 182, 10);
+}
+
+.messages > .error > a {
+  color: rgb(240, 137, 144);
+}
+
 #content {
   margin-top: 40px;
   width: 80%;
